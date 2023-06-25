@@ -130,7 +130,12 @@ ul {
     width: 100%;
   }
   
+  #top-container {
+    height: auto;
+  }
+  
   #bottom-container {
     flex-direction: column;
+    height: auto;
   }
 }
