@@ -119,3 +119,15 @@ ul {
   opacity: 0.8;
   
 }
+
+@media (max-width: 650px) {
+  #card {
+    width: 100%;
+    height: auto;
+  }
+  
+  #price-container, #whyus-container {
+    display: block;
+    width: 100%;
+  }
+}
