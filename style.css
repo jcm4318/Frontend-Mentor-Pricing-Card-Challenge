@@ -36,14 +36,14 @@ body {
   color: white;
   height: 58%;
   width: 100%;
+  display: flex;
+  
 }
 
 #price-container {
   background-color: hsl(179, 62%, 43%);
   width: 50%;
   height: 100%;
-  display: inline-block;
-  vertical-align: top;
   padding: 26px;
 }
 
@@ -51,14 +51,13 @@ body {
   background-color: hsl(179, 62%, 47%);
   width: 50%;
   height: 100%;
-  display: inline-block;
-  vertical-align: top;
   padding: 26px;
 }
 
 #top-container h2 {
   color: hsl(179, 62%, 43%);
   margin-bottom: 16px;
+  
 }
 
 #top-container h3{
@@ -129,5 +128,9 @@ ul {
   #price-container, #whyus-container {
     display: block;
     width: 100%;
+  }
+  
+  #bottom-container {
+    flex-direction: column;
   }
 }
